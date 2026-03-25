@@ -9,7 +9,7 @@ MODEL_FILE = "final_mental_health_model/model.safetensors"
 
 if not os.path.exists(MODEL_FILE):
     print("Downloading model...")
-    url = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+    url = "https://drive.google.com/file/d/1PTIM2gdRoow9lkdZOOsub4cfDncv9tsH/view?usp=sharing"
     gdown.download(url, MODEL_FILE, quiet=False)
 
 app = FastAPI()
